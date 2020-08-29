@@ -3,14 +3,14 @@ package com.fibbo;
 public class FibboacciExample {
 
 	public static void main(String[] args) {
-		int n1 = 0, n2 = 1, n3, i, count = 10;
-		System.out.println(n1 + " " + n2);
+		int num1 = 0, num2 = 1, num3, i, count = 10;
+		System.out.println(num1 + " " + num2);
 
 		for (i = 2; i < count; i++) {
-			n3 = n1 + n2;
-			System.out.print("  " + n3);
-			n1 = n2;
-			n2 = n3;
+			num3 = num1 + num2;
+			System.out.print("  " + num3);
+			num1 = num2;
+			num2 = num3;
 		}
 
 	}
